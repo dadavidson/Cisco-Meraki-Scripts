@@ -34,6 +34,7 @@ def main():
     # Get list of organizations
     # my_orgs = dashboard.organizations.getOrganizations()
     # print(my_orgs)
+    # Import your ORG ID
     act_org_id = '123456'
 
     pr = argparse.ArgumentParser(description='Meraki API Hub Priority Tool')
